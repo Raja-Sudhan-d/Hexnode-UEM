@@ -235,8 +235,63 @@
   margin-bottom: 15px;
 }
 
-.features-card-desc{
+.platforms-head{
+  font-weight: 700;
+  text-align: center;
+  font-size: 32px;
+}
 
+.platforms-desc{
+  text-align: center;
+}
+
+.platforms-section{
+  background-color: #e5e7eb;
+  padding: 20px;
+}
+
+/* .platform-img-container{
+
+} */
+
+.accordion-button{
+  color: black !important;
+  background-color: none !important;
+}
+
+.platform-image{
+  width: 100%; 
+  border-radius: 20px;
+  display: none;
+  transform: translateY(20px); 
+  opacity: 0; 
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  
+}
+
+.platform-image.active {
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.acc-text{
+  color: rgb(226 41 81);
+  font-weight: 600;
+}
+
+.customer-review-section{
+  background-color: white;
+}
+
+.testimonial {
+  flex: 0 0 100%;
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 /* Extra small devices (phones, 600px and down) */
